@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+$font-stack: Oxygen, sans-serif;
+$primary-color: #333;
+$secondary-color: rgb(0, 187, 156);
+
+$font-stack-mono: 'Oxygen Mono', monospace;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  text-align: right;
+  padding-right: 1%;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+a {
+  font: 100% $font-stack-mono;
+  color: $secondary-color;
+  text-decoration: none;
+  font-weight: 400;
+  padding-inline: 0.5rem;
+}
+
